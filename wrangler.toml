@@ -1,0 +1,17 @@
+name = "barhopoly"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+# The game page and its scripts
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# One live room per hosted game, plus one for the boards
+[[durable_objects.bindings]]
+name = "ROOMS"
+class_name = "Room"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Room"]

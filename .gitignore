@@ -1,0 +1,6 @@
+# screenshots and notes that aren't part of the site
+*.png
+*.jpg
+.wrangler/
+node_modules/
+.dev.vars
