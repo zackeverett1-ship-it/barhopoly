@@ -1,6 +1,8 @@
 name = "barhopoly"
 main = "src/worker.js"
 compatibility_date = "2025-09-01"
+# Serve the game at barhopoly.<your-subdomain>.workers.dev
+workers_dev = true
 
 # The game page and its scripts
 [assets]
